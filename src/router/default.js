@@ -33,18 +33,6 @@ const myRouter = [
     redirect: "/404",
     hidden: true
   }
-  // // 我的信息
-  // {
-  //   path: "my/myInfo",
-  //   component: () =>import("cyberway-msf-frontend-web-sys/src/views/permission/userManagement/components/editUserManagement.vue"),
-  //   name: "my",
-  //   meta: {
-  //     title: "个人资料",
-  //     icon: "el-icon-news",
-  //     requiresAuth: false
-  //   },
-  //   hidden: true
-  // },
 ];
 //no login redirect login page
 export default myRouter;
