@@ -1,0 +1,54 @@
+.app-container{
+  margin-top: 15px;
+  padding: 0px 15px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.app-form{
+ // margin-top: 15px;
+  margin:15px 15px 0px 15px;
+  padding: 0px 15px;
+  width: auto;
+  overflow: hidden;
+  //position: relative;
+  min-height: 800px;
+  background-color: white;
+}
+
+.layoutItem_1{
+  margin-top: 15px;
+  padding: 0px 15px;
+  width: 100%;
+  overflow: hidden;
+  //padding-bottom: 20px;
+  position: relative;
+}
+.layoutItemLi{
+  min-height: 800px;
+  background-color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.width50{
+  width: 50%;
+  .el-input{
+    min-width: 160px;
+    max-width:200px
+  }
+}
+.width100{
+  width: 100%;
+}
+.width80{
+  width: 80%;
+  .el-textarea{
+    height: 120px;
+    .el-textarea__inner{
+      height: 120px;
+    }
+  }
+}
+
+
