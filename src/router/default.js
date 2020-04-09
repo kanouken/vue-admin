@@ -17,8 +17,6 @@ const myRouter = [
       multiTenant: false
     }),
     meta: {
-      title: "登陆",
-      icon: "el-icon-news",
       requiresAuth: false
     },
     hidden: true
