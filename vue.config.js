@@ -5,7 +5,7 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 const IS_PROD = ["production", "prod"].includes(process.env.NODE_ENV);
 
 module.exports = {
-  publicPath: "/shensuo/admin/dev",
+  publicPath: "/{{name}}/admin/dev",
   lintOnSave: false,
   chainWebpack: config => {
     if (IS_PROD) {
