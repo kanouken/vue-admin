@@ -13,7 +13,7 @@ const myRouter = [
     name: "authLogin",
 
     props: () => ({
-      sysName: "${moduleName}",
+      sysName: "{{title}}",
       multiTenant: false
     }),
     meta: {
